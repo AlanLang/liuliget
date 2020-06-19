@@ -1,7 +1,8 @@
 {
     "apps" : [{
         "name": "liuliget",
-        "script": "start:dev",
+        "script": "yarn",
+        "args" : "start:dev",
         "instances": "1",
         "exec_mode": "fork",
         "min_uptime": "60s",
