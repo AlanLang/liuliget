@@ -1,0 +1,14 @@
+{
+    "apps" : [{
+        "name": "liuliget",
+        "script": "start:dev",
+        "instances": "1",
+        "exec_mode": "fork",
+        "min_uptime": "60s",
+        "max_restarts": 30,
+        "error_file" : "./test-err.log",
+        "out_file": "./test-out.log",
+        "pid_file": "./test.pid",
+        "watch": false
+    }]
+  }
